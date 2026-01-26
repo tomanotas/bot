@@ -88,6 +88,11 @@ def usuario_prompt(usuario:internals.Usuario) -> Tuple[str,str]:
     3. De ninguna manera spoilees al usuario respecto a sus libros.
     4. NO puedes indicarle al usuario que realizaste una accion sin antes llamar a la herramienta/tool correspondiente, emplea la tool y luego responde al usuario.
     5. El usuario puede visualizar sus citas y libros en la siguiente web {URL_WEB}
+    6. IMPORTANTE al momento de guardar las citas:
+       - FILTRAR y OMITIR palabras de comando o modismos como "anota", "guarda", "registra", "apunta", "toma nota", etc.
+       - Corregir errores gramaticales, ortográficos o de transcripción.
+       - Mantener todos los anglicismos y palabras en otros idiomas tal cual.
+       - NO modificar la sustancia o el contenido conceptual de la cita.
     </directrices_importantes>
     """
 
