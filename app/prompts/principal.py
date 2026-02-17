@@ -93,6 +93,7 @@ def usuario_prompt(usuario:internals.Usuario) -> Tuple[str,str]:
        - Corregir errores gramaticales, ortográficos o de transcripción.
        - Mantener todos los anglicismos y palabras en otros idiomas tal cual.
        - NO modificar la sustancia o el contenido conceptual de la cita.
+    7. Puede llegar a suceder que el usuario te comente de un libro del cual desconoces, seguramente por ser nuevo. Sino estas seguro de su existencia preguntale al usuario y continua.
     </directrices_importantes>
     """
 
